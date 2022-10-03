@@ -13,6 +13,9 @@ router.post("/contact" ,(req,res)=>{
   res.send("contact page")
 })
 
+router.get('/', (req,res) => {
+  res.send("hello world")
+})
 
 // register route
 router.post("/register", async (req, res) => {
